@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "expenses": "Gastos",
+    "reports": "Reportes"
+  },
+  "language": "Idioma",
+  "english": "English",
+  "spanish": "Español",
+  "landing": {
+    "title": "Rastreador de Gastos de Viaje",
+    "subtitle": "Rastrea tus gastos de viaje en múltiples monedas y genera reportes PDF detallados.",
+    "cta_new_report": "Crear Nuevo Reporte",
+    "features_title": "¿Por qué elegir nuestro rastreador?",
+    "feature_1": "Soporte de múltiples monedas",
+    "feature_1_desc": "USD, UYU, ARS - añade tasas de cambio personalizadas",
+    "feature_2": "Carga de recibos",
+    "feature_2_desc": "Adjunta imágenes a tus gastos",
+    "feature_3": "Reportes PDF",
+    "feature_3_desc": "Genera reportes de gastos profesionales",
+    "feature_4": "Conversiones rápidas",
+    "feature_4_desc": "Conversión automática a USD"
+  },
+  "report": {
+    "title": "Crear Nuevo Reporte",
+    "name_label": "Nombre del Reporte",
+    "name_placeholder": "p. ej., Viaje de Verano 2025",
+    "initial_amount": "Monto Inicial (USD)",
+    "create_button": "Crear Reporte",
+    "expense_form_title": "Agregar Gasto",
+    "concept": "Concepto",
+    "concept_placeholder": "p. ej., Hotel, Vuelo, Comida",
+    "date": "Fecha",
+    "amount": "Monto",
+    "currency": "Moneda",
+    "exchange_rate": "Tasa de Cambio",
+    "receipt": "Imagen de Recibo (opcional)",
+    "add_expense": "Agregar Gasto",
+    "cancel": "Cancelar",
+    "total_initial": "Monto Inicial Total",
+    "total_spent": "Total Gastado",
+    "remaining": "Saldo Restante",
+    "delete_expense": "Eliminar",
+    "generate_pdf": "Generar Reporte PDF",
+    "back_to_reports": "Volver a Reportes"
+  },
+  "reports": {
+    "title": "Mis Reportes",
+    "no_reports": "Sin reportes aún. ¡Crea tu primer reporte para comenzar!",
+    "name": "Nombre",
+    "initial": "Monto Inicial",
+    "spent": "Gastado",
+    "remaining": "Restante",
+    "view": "Ver",
+    "delete": "Eliminar",
+    "created": "Creado"
+  },
+  "validation": {
+    "required": "Este campo es obligatorio",
+    "invalid_amount": "Por favor ingresa un monto válido",
+    "invalid_rate": "Por favor ingresa una tasa de cambio válida"
+  }
+}

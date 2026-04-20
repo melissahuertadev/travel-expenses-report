@@ -1,0 +1,63 @@
+{
+  "nav": {
+    "home": "Home",
+    "expenses": "Expenses",
+    "reports": "Reports"
+  },
+  "language": "Language",
+  "english": "English",
+  "spanish": "Español",
+  "landing": {
+    "title": "Travel Expense Tracker",
+    "subtitle": "Track your travel expenses across multiple currencies and generate detailed PDF reports.",
+    "cta_new_report": "Create New Report",
+    "features_title": "Why Choose Our Tracker?",
+    "feature_1": "Multi-currency support",
+    "feature_1_desc": "USD, UYU, ARS - add custom exchange rates",
+    "feature_2": "Receipt uploads",
+    "feature_2_desc": "Attach images to your expenses",
+    "feature_3": "PDF reports",
+    "feature_3_desc": "Generate professional expense reports",
+    "feature_4": "Quick conversions",
+    "feature_4_desc": "Automatic USD conversion"
+  },
+  "report": {
+    "title": "Create New Report",
+    "name_label": "Report Name",
+    "name_placeholder": "e.g., Summer Trip 2025",
+    "initial_amount": "Initial Amount (USD)",
+    "create_button": "Create Report",
+    "expense_form_title": "Add Expense",
+    "concept": "Concept",
+    "concept_placeholder": "e.g., Hotel, Flight, Food",
+    "date": "Date",
+    "amount": "Amount",
+    "currency": "Currency",
+    "exchange_rate": "Exchange Rate",
+    "receipt": "Receipt Image (optional)",
+    "add_expense": "Add Expense",
+    "cancel": "Cancel",
+    "total_initial": "Total Initial",
+    "total_spent": "Total Spent",
+    "remaining": "Remaining Balance",
+    "delete_expense": "Delete",
+    "generate_pdf": "Generate PDF Report",
+    "back_to_reports": "Back to Reports"
+  },
+  "reports": {
+    "title": "My Reports",
+    "no_reports": "No reports yet. Create your first report to get started!",
+    "name": "Name",
+    "initial": "Initial Amount",
+    "spent": "Spent",
+    "remaining": "Remaining",
+    "view": "View",
+    "delete": "Delete",
+    "created": "Created"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalid_amount": "Please enter a valid amount",
+    "invalid_rate": "Please enter a valid exchange rate"
+  }
+}
