@@ -9,6 +9,7 @@ export interface Expense {
   amount: number
   currency: string
   exchangeRate: number
+  includeInReport: boolean
   receipt?: string
 }
 

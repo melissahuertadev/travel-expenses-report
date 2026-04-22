@@ -8,6 +8,7 @@ import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { useExpenses, Expense } from '@/hooks/use-expenses'
+import { tr } from 'date-fns/locale'
 
 const CURRENCIES = ['USD', 'UYU', 'ARS', 'BRL', 'CLP', 'COP', 'MXN', 'EUR', 'PEN', 'BOB']
 const EXCHANGE_RATES: Record<string, number> = {
@@ -37,6 +38,7 @@ export function ReportContent() {
     amount: 0,
     currency: 'USD',
     exchangeRate: 1,
+    includeInReport: true,
     receipt: '',
   })
 
@@ -80,6 +82,7 @@ export function ReportContent() {
         amount: 0,
         currency: 'USD',
         exchangeRate: 1,
+        includeInReport: true,
         receipt: '',
       })
       setShowExpenseForm(false)
@@ -248,6 +251,8 @@ export function ReportContent() {
                       className="border-blue-200"
                     />
                   </div>
+
+                  
                 </div>
 
                 <div className="flex gap-3 pt-4">
